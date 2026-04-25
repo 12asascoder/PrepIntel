@@ -1,0 +1,84 @@
+{
+  "mealTypes": ["Breakfast", "Lunch", "Snacks", "Dinner"],
+  "currentMealCycle": "Lunch",
+  "foodItems": [
+    { "name": "Rice", "unit": "kg", "costPerUnit": 45, "perStudentQty": 0.2 },
+    { "name": "Dal", "unit": "kg", "costPerUnit": 80, "perStudentQty": 0.055 },
+    { "name": "Vegetables", "unit": "kg", "costPerUnit": 60, "perStudentQty": 0.13 },
+    { "name": "Oil / Spices", "unit": "L", "costPerUnit": 150, "perStudentQty": 0.015 }
+  ],
+  "historicalAttendance": {
+    "Breakfast": [
+      { "date": "2026-04-18", "day": "Saturday", "count": 145 },
+      { "date": "2026-04-19", "day": "Sunday", "count": 98 },
+      { "date": "2026-04-20", "day": "Monday", "count": 195 },
+      { "date": "2026-04-21", "day": "Tuesday", "count": 188 },
+      { "date": "2026-04-22", "day": "Wednesday", "count": 192 },
+      { "date": "2026-04-23", "day": "Thursday", "count": 185 },
+      { "date": "2026-04-24", "day": "Friday", "count": 178 }
+    ],
+    "Lunch": [
+      { "date": "2026-04-18", "day": "Saturday", "count": 178 },
+      { "date": "2026-04-19", "day": "Sunday", "count": 145 },
+      { "date": "2026-04-20", "day": "Monday", "count": 225 },
+      { "date": "2026-04-21", "day": "Tuesday", "count": 218 },
+      { "date": "2026-04-22", "day": "Wednesday", "count": 210 },
+      { "date": "2026-04-23", "day": "Thursday", "count": 222 },
+      { "date": "2026-04-24", "day": "Friday", "count": 215 }
+    ],
+    "Snacks": [
+      { "date": "2026-04-18", "day": "Saturday", "count": 120 },
+      { "date": "2026-04-19", "day": "Sunday", "count": 85 },
+      { "date": "2026-04-20", "day": "Monday", "count": 165 },
+      { "date": "2026-04-21", "day": "Tuesday", "count": 155 },
+      { "date": "2026-04-22", "day": "Wednesday", "count": 160 },
+      { "date": "2026-04-23", "day": "Thursday", "count": 158 },
+      { "date": "2026-04-24", "day": "Friday", "count": 148 }
+    ],
+    "Dinner": [
+      { "date": "2026-04-18", "day": "Saturday", "count": 165 },
+      { "date": "2026-04-19", "day": "Sunday", "count": 130 },
+      { "date": "2026-04-20", "day": "Monday", "count": 208 },
+      { "date": "2026-04-21", "day": "Tuesday", "count": 198 },
+      { "date": "2026-04-22", "day": "Wednesday", "count": 205 },
+      { "date": "2026-04-23", "day": "Thursday", "count": 210 },
+      { "date": "2026-04-24", "day": "Friday", "count": 195 }
+    ]
+  },
+  "historicalPreparation": {
+    "Lunch": [
+      { "date": "2026-04-20", "prepared": 58, "consumed": 44, "students": 225 },
+      { "date": "2026-04-21", "prepared": 60, "consumed": 45, "students": 218 },
+      { "date": "2026-04-22", "prepared": 55, "consumed": 42, "students": 210 },
+      { "date": "2026-04-23", "prepared": 56, "consumed": 44, "students": 222 },
+      { "date": "2026-04-24", "prepared": 54, "consumed": 43, "students": 215 }
+    ]
+  },
+  "currentSensors": {
+    "studentCount": 218,
+    "foodLoad": 60,
+    "temperature": 28,
+    "gas": 720,
+    "smoke": 540,
+    "inventory": {
+      "dryStorage": 82,
+      "coldStorage": 45,
+      "freshProduce": 68
+    }
+  },
+  "bufferPercentage": 0.05,
+  "adjustmentFactors": {
+    "weekday": 1.0,
+    "weekend": 0.7,
+    "examPeriod": 0.6,
+    "festival": 1.2,
+    "rainyDay": 0.85
+  },
+  "users": [
+    { "id": 1, "username": "admin", "password": "admin123", "name": "Admin Operator", "facility": "Facility 04-A", "role": "admin" }
+  ],
+  "waterUsagePerMeal": 850,
+  "energyUsagePerMeal": 42,
+  "waterBaseline": 1000,
+  "energyBaseline": 50
+}
